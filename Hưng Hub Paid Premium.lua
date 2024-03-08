@@ -64,8 +64,6 @@ assert(getrawmetatable)
             return
         elseif tostring(args[1]) == "OneMoreTime" then
             return
-        elseif tostring(args[1]) == "checkingSPEED" then
-            return
         elseif tostring(args[1]) == "BANREMOTE" then
             return
         elseif tostring(args[1]) == "PERMAIDBAN" then
