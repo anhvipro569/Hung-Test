@@ -1,4 +1,11 @@
-                                                      
+--[[
+██████╗ ██╗ ██████╗██╗  ██╗    ██╗   ██╗██╗   ██╗    ███████╗██████╗  █████╗  ██████╗███████╗
+██╔══██╗██║██╔════╝██║  ██║    ██║   ██║██║   ██║    ██╔════╝██╔══██╗██╔══██╗██╔════╝██╔════╝
+██║  ██║██║██║     ███████║    ██║   ██║██║   ██║    ███████╗██████╔╝███████║██║     █████╗  
+██║  ██║██║██║     ██╔══██║    ╚██╗ ██╔╝██║   ██║    ╚════██║██╔═══╝ ██╔══██║██║     ██╔══╝  
+██████╔╝██║╚██████╗██║  ██║     ╚████╔╝ ╚██████╔╝    ███████║██║     ██║  ██║╚██████╗███████╗
+╚═════╝ ╚═╝ ╚═════╝╚═╝  ╚═╝      ╚═══╝   ╚═════╝     ╚══════╝╚═╝     ╚═╝  ╚═╝ ╚═════╝╚══════╝    
+                                                            
 --// Lưu Ý:
 - Không Được Share Hay Crack Mã Nguồn Này Cho Ai! Nếu Không Bạn Sẽ Bị Ban IP Khỏi Website Vĩnh Viễn!
 - Chúng Tôi Không Nhận Hỗ Trợ Những Mã Nguồn Miễn Phí, 
@@ -27,7 +34,7 @@ Fluent:Notify({
         Duration = duration, -- Set to nil to make the notification not disappear
     })
 end 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/anhvipro569/Hung-Test/main/Settings"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Anhvipro010/Hung-Hub-Paid-Premium/main/Settings"))()
 --------------------------------------------------------------------------------------------------------
 if game.PlaceId == 2753915549 then
         World1 = true
