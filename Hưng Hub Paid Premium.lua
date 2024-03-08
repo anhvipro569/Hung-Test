@@ -4142,7 +4142,7 @@ spawn(function()
                     localplayer.Character.Humanoid.PlatformStand=true
                     local new=gyro.CFrame - gyro.CFrame.p + pos.position
                     if not keys.w and not keys.s and not keys.a and not keys.d then
-                    speed=1
+                    speed=0
                     end
                     if keys.w then
                     new = new + workspace.CurrentCamera.CoordinateFrame.lookVector * speed
