@@ -4125,7 +4125,7 @@ spawn(function()
         localplayer=game:GetService("Players").LocalPlayer
         game:GetService("Players").LocalPlayer.Character:WaitForChild("HumanoidRootPart")
         local torso = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
-        local speedSET=25
+        local speedSET=1
         local keys={a=false,d=false,w=false,s=false}
         local e1
         local e2
@@ -4165,9 +4165,9 @@ spawn(function()
                     end
                     pos.position=new.p
                     if keys.w then
-                    gyro.CFrame = workspace.CurrentCamera.CoordinateFrame*CFrame.Angles(-math.rad(speed*1),0,0)
+                    gyro.CFrame = workspace.CurrentCamera.CoordinateFrame*CFrame.Angles(-math.rad(speed*15),0,0)
                     elseif keys.s then
-                    gyro.CFrame = workspace.CurrentCamera.CoordinateFrame*CFrame.Angles(math.rad(speed*1),0,0)
+                    gyro.CFrame = workspace.CurrentCamera.CoordinateFrame*CFrame.Angles(math.rad(speed*15),0,0)
                     else
                     gyro.CFrame = workspace.CurrentCamera.CoordinateFrame
                     end
